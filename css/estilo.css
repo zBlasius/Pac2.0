@@ -1,12 +1,21 @@
 body {
+<<<<<<< HEAD
     background-color:rgba(173, 173, 173, 0.904);
+=======
+    background-color:rgba(1, 17, 0, 0.904);
+>>>>>>> 2bd5f7ec6ff3fbb2c997fb567aeda33783c62925
 }
 
 div#interface{
     margin:-10px auto 10px auto;
     width: 94%;
+<<<<<<< HEAD
     background-color:#ffffff;
     box-shadow: 1px 1px 3px 1px  #606060;
+=======
+    background-color:#666666;
+    box-shadow: 1px 1px 3px 1px  white;
+>>>>>>> 2bd5f7ec6ff3fbb2c997fb567aeda33783c62925
 }
 
 .corpo-site{
@@ -24,6 +33,7 @@ div#interface{
 .conjunto-navbar {
     position:absolute;
     left: 50%;
+<<<<<<< HEAD
     top:-3%; 
     color:#606060;
 }
@@ -33,6 +43,11 @@ div#interface{
     text-decoration: none;
 }
 
+=======
+    top:-3%;
+    
+}
+>>>>>>> 2bd5f7ec6ff3fbb2c997fb567aeda33783c62925
 .nav-itens{
     list-style:none;
     display:inline-block;
@@ -43,9 +58,14 @@ div#interface{
 }
 
 .nav-itens:hover {
+<<<<<<< HEAD
     background-color: #03030383;
     border-radius: 5px;
     color:white;
+=======
+    background-color: #ffffff83;
+    border-radius: 5px;
+>>>>>>> 2bd5f7ec6ff3fbb2c997fb567aeda33783c62925
 }
 
 li#logo {
