@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Staatliches&display=swap');
+
 body {
-    background-color:rgba(173, 173, 173, 0.904);
+    background-color:#2F4F4F;
 }
+
+#titulo {
+font-family: 'Staatliches', cursive;
+}
+
+
+h1{
+	font-family: 'Staatliches', cursive;
+}
+
+h3{
+	font-family:'IBM Plex Serif', serif;
+}
+h4 {
+	font-family:'IBM Plex Serif', serif;
+}	
 
 div#interface{
     margin:-10px auto 10px auto;

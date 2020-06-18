@@ -1,40 +1,154 @@
- <!doctype html>
+<!doctype html>
 <html lang="pt-br" >
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/estilo.css"/> 
-    <title> Titulo do site  </title>
+    <link rel="stylesheet" href="css/estilo.css"/>
+	
+	<title> componentes </title>
 </head>
+
 <body>
-<div id="interface"> 
+<div id="interface">
+ 
+ 
+  <nav class="navbar">
+        
+    <li  id="logo"> <img src="assets/icone.png" >  </li>
+    <ul class="conjunto-navbar">
+        
+        <a href="index.html">      <li class="nav-itens">      Home</li>         </a>
+        <a href="componentes.html"> <li class="nav-itens">    Componentes </li>   </a>
+        <a href="projeto.html">     <li class="nav-itens">     Projeto </li>     </a>
+        
+    </ul>
+</nav>
+<div class="corpo-site">
 
-    <nav class="navbar">
-        <li  id="logo"> <img src="assets/icone.png" >  </li>
-        <ul class="conjunto-navbar">
-            <a  href="index.html">      <li class="nav-itens">      Home</li>         </a>
-            <a href="componentes.html"> <li class="nav-itens">    Componentes </li>   </a>
-            <a href="projeto.html">     <li class="nav-itens">     Projeto </li>     </a>
-            
-        </ul>
-    </nav>
+ <center><h2> <div id="titulo">&bull; Kit Carro 2wd Robótica Chassi Acrílico </h2>
+ 
+ <h4> 
+Kit de montagem de um chassi para aplicações robóticas e educacionais. <br>
+O Chassi é feito de acrílico e acompanha uma película adesiva para proteção contra arranhados.<br>
+ Ambos os motores DC possuem caixa de redução (1:48) e são conectados independentemente em cada roda, <br>
+ sobrando assim uma roda boba (universal) para dar sustentação ao Chassi.<br>
 
-    <div class="corpo-site">
+<p> <img src="assets\chassi.jpg" width="300" height="290"> </p> <p> </center>
 
-       <h1> Componentes </h1>
-            <ul class="lista-componentes"> 
-                    <li> Nesta lista irá</li>
-                    <li> Todos os componentes </li>
-            </ul>
+ <center> <h3> &rarr; Dados técnicos: <br></h3>
 
-        <p> nesta aba também irá algumas fotos sobre os nossos componentes </p>
-    </div>
-    <footer class="rodape">
-        <p> CTRL + ALT + DEL </p>
-        <p> &copy; Todos os direitos reservados. </p>
-    </footer>
+<h4> &bull; 1 x Chassi acrilico transparente; <br>
+ &bull; 1 x Suporte para pilhas <br>
+ &bull; 1 x chave liga/desliga <br>
+ &bull; 1 x Roda universal<br>
+ &bull; 2 x Roda<br>
+ &bull; 2 x Motor com redução Parafusos e peças de fixação diversas<br></h4>
+ 
+ <h2> <div id="titulo"> &bull; Arduino Uno 16u2 </h2>
+ 
+ <h4>Microcontrolador: ATmega328 Tensão de Operação: 5v Tensão de entrada <br>
+ (recomendada): 7-12v Tensão de entrada (limites): 6-20v Pinos de entrada/saída: 14 (dos quais 6 podem ser PWM)<br>
+ Pinos de entrada analógica: 6 Corrente DC por pino I/O: 40mA Corrente DC para pino 3,3v: 50mA<br>
+ Memória Flash: 32KB (dos quais 0,5KB são usados pelo Bootloader) SRAM: 2KB - EEPROM: 1KB Velocidade do Clock: 16MHz <br></h4>
+ 
+ <p> <img src="assets\uno.jpg" width="300" height="290"> </p> <p> </center>
+ 
+ <center> <h3> &rarr; Dados técnicos: <br></h3>
+ 
+ <h4>&bull;Microcontrolador: ATmega328<br>
+ &bull;Tensão de Operação: 5v<br>
+ &bull;Tensão de entrada (recomendada): 7-12v <br>
+ &bull;Tensão de entrada (limites): 6-20v<br>
+ &bull;Pinos de entrada analógica: 6<br>
+ &bull;Corrente DC por pino I/O: 40mA<br>
+ &bull;Corrente DC para pino 3,3v: 50mA<br>
+ &bull;Memória Flash: 32KB <br>
+ &bull;SRAM: 2KB <br>
+ &bull;EEPROM: 1KB<br>
+ &bull;Velocidade do Clock: 16MHz<br></h4>
+ 
+ <h2> <div id="titulo">&bull;  Modulo Ponte H L298n </h2>
+ 
+ <H4>Controle até 2 motores DC ou 1 motor de passo com este módulo Ponte h L298n Arduíno.<br>
+ Esse módulo é projetado para controlar cargas indutivas como relés, solenoides,<br>
+ motores DC e motores de passo, permitindo o controle não só do sentido de rotação do motor, <br>
+ como também da sua velocidade, utilizando os pinos PWM do Arduíno: Muito utilizado na robótica em carros,<br>
+ onde se necessita o controle dos motores para conseguir fazer curvas, andar, diminuir velocidade e etc.<br> </h4>
+ 
+ <p> <img src="assets\modulo.jpg" width="300" height="290"> </p> <p> </center>
+ 
+ 
+  <center> <h3> &rarr; Dados técnicos: <br></h3>
+  
+ <h4> &bull;Tensão de alimentação: 6 V ~ +35 V<br>
+  &bull;Pico de corrente de Saída: 2A por porta (Motor)<br>
+  &bull;Tensão dos terminais de controle: 4.5~5.5 V<br>
+  &bull;Corrente dos terminais de controle: 0~36mA<br>
+  &bull;Tensão por nível lógico:  4.5~5.5Ve 0V<br>
+  &bull;Potência máxima: 20W<br>
+  &bull;Temperatura de trabalho: -25ºC ~ +130ºC<br>
+  &bull;Dimensões da placa 43mm x 43mm<br><p> </h4>
 
+ <h2><div id="titulo"> &bull;  Módulo Sensor IR 5 Canais</h2>
+ 
+ <h4>Módulo Sensor Segue Faixa Infravermelho 5 canais, é um modulo desenvolvido para o<br>
+ desenvolvimento de robôs do tipo Segue Faixa ou anti-colisão por exemplo,<br>
+ possui 6 sensores IR e 1 switch. O módulo tem ainda leds indicadores para cada um dos sensores,<br>
+ além do led Power (ligado).<br> </h4>
+ 
+ <p> <img src="assets\sensor.jpg" width="300" height="290"> </p> <p> <center>
+ 
+<h2><div id="titulo">&bull; Módulo Bluetooth Hc06 </h2>
+ 
+ <h4>O Módulo Bluetooth Hc06 é usado para comunicação wireless entre o Arduino e algum<br>
+ outro dispositivo com bluetooth, como por exemplo um telefone celular, um computador ou tablet.<br>
+ As informações recebidas pelo módulo são repassadas ao Arduino (ou outro microcontrolador) via serial.<p>
+ 
+O alcance do módulo segue o padrão da comunicação bluetooth, que é de aproximadamente 10 metros.<br>
+ Esse módulo funciona apenas em modo slave(escravo), ou seja, ele permite que outros dispositivos<br>
+ se conectem à ele, mas não permite que ele próprio se conecte à outros dispositivos bluetooth.<br>
+ 
+ <p> <img src="assets\blue.jpg" width="300" height="290"> </p> <p> </center>
+ 
+ <center> <h2> &rarr; Dados técnicos: <br></h2> </center>
+ 
+<h4/>&bull;Protocolo Bluetooth: V2.0+EDR<br>
+&bull;Frequência: 2.4Ghz<br>
+&bull;Banda ISM<br>
+&bull;Modulação: GFSK<br>
+&bull;Potência: =4dBm<br>
+&bull;Sensibilidade: =-84dBm<br>
+&bull;Velocidade: Assíncrona: 2.1Mbps(Max) / 160 kbps<br>
+&bull;Síncrona: 1Mbps/1Mbps<br>
+&bull;Segurança: Autenticação e encriptografia<br>
+&bull;Tensão: 3,6V a 6V<br>
+&bull;Temperatura de trabalho: -20°C ~+75°<br>
+&bull;Tipo de comunicação: USART<br>
+&bull;Serial RS232 nível TTL<br>
+&bull;Velocidade de comunicação: 9600 (padrão)<br><p></h4>
+
+
+ <h2> <div id="titulo">&bull; Pilha Palito Aaa C/4 Alcalina Golden Power </h2>
+ 
+ <h4>Esta pilha pode ser utilizada em relógios, brinquedos, rádios e muito mais. <br>
+ Com tensão de 1.5v é possível utiliza-la ligadas em série, conseguindo se obter maior valor de tensão.<br> </h4>
+ 
+ 
+<p> <img src="assets\pilha.jpg" width="200" height="200"> </p> <p> </center>
+
+  <center> <h3> &rarr; Dados técnicos: <br></h3>
+ 
+<h4>&bull;Modelo: Pilha Palito Aaa C/4 Alcalina Golden Power<br>
+&bull;Tensão: 1.5v <br>
+&bull;Formato: cilíndrico <br>
+&bull;Marca: Golden Power <br>
+&bull;Composição: Alcalina <br>
+&bull;Quantidade: 4 unidades <br></h4>
+
+<footer class="rodape">
+  <p> CTRL + ALT + DEL </p>
+  <p> &copy; Todos os direitos reservados. </p>
+</footer>
 
 </div>
 </body>
-
 </html>
